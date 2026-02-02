@@ -1,0 +1,84 @@
+{
+    "nav": {
+        "home": "Home",
+        "carShades": "Car Shades",
+        "customShades": "Custom Shades",
+        "services": "Services",
+        "about": "About",
+        "contact": "Contact",
+        "getQuote": "Get Quote"
+    },
+    "hero": {
+        "title": "Premium Shade Solutions",
+        "subtitle": "Transform Your Space with Expert Craftsmanship",
+        "description": "Leading provider of car shades, custom tents, and shade installations across Saudi Arabia. 15+ years of excellence.",
+        "cta": "Explore Services",
+        "ctaSecondary": "View Projects"
+    },
+    "stats": {
+        "projects": "Projects Completed",
+        "experience": "Years Experience",
+        "clients": "Happy Clients",
+        "coverage": "Cities Coverage"
+    },
+    "services": {
+        "title": "Our Services",
+        "subtitle": "Comprehensive Shade Solutions",
+        "carShades": "Car Shades",
+        "customShades": "Custom Shades",
+        "tentInstallation": "Tent Installation",
+        "viewAll": "View All Services"
+    },
+    "whyChoose": {
+        "title": "Why Choose Falcon Tents",
+        "quality": "Premium Quality",
+        "qualityDesc": "High-grade materials and expert craftsmanship",
+        "experience": "15+ Years Experience",
+        "experienceDesc": "Trusted by thousands across Saudi Arabia",
+        "warranty": "Warranty Guaranteed",
+        "warrantyDesc": "Comprehensive coverage on all installations",
+        "support": "24/7 Support",
+        "supportDesc": "Always here to help with your needs"
+    },
+    "cta": {
+        "title": "Ready to Get Started?",
+        "description": "Contact us today for a free consultation and quote",
+        "button": "Contact Us Now"
+    },
+    "footer": {
+        "description": "Leading provider of premium shade solutions across Saudi Arabia. Quality, reliability, and excellence in every project.",
+        "quickLinks": "Quick Links",
+        "services": "Services",
+        "contact": "Contact Us",
+        "address": "Address",
+        "email": "Email",
+        "phone": "Phone",
+        "followUs": "Follow Us",
+        "rights": "All rights reserved."
+    },
+    "contact": {
+        "title": "Get in Touch",
+        "subtitle": "We're here to help with your shade solution needs",
+        "name": "Full Name",
+        "email": "Email Address",
+        "phone": "Phone Number",
+        "message": "Your Message",
+        "send": "Send Message",
+        "info": "Contact Information",
+        "locations": "Our Locations"
+    },
+    "about": {
+        "title": "About Falcon Tents",
+        "story": "Our Story",
+        "storyText": "With over 15 years of experience, Falcon Tents has become Saudi Arabia's trusted name in premium shade solutions. We've completed over 1,000 projects across the kingdom.",
+        "values": "Our Values",
+        "team": "Our Team",
+        "certifications": "Certifications"
+    },
+    "common": {
+        "learnMore": "Learn More",
+        "readMore": "Read More",
+        "viewDetails": "View Details",
+        "backToHome": "Back to Home"
+    }
+}
