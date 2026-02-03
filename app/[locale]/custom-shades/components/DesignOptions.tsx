@@ -73,9 +73,6 @@ const DesignOptions = () => {
                   alt={tImages(option.id)}
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                 />
-                <div className="absolute top-3 right-3 w-12 h-12 bg-white/95 backdrop-blur rounded-xl flex items-center justify-center shadow-md">
-                  <Icon name={option.icon as any} size={24} className="text-primary" />
-                </div>
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-heading font-bold text-foreground mb-4">

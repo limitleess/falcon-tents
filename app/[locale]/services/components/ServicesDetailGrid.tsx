@@ -206,9 +206,6 @@ const ServicesDetailGrid = () => {
                   alt={tImages(service.imageKey)}
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                 />
-                <div className="absolute top-3 right-3 w-12 h-12 rounded-xl bg-white/95 backdrop-blur shadow flex items-center justify-center">
-                  <Icon name={service.icon as any} size={24} className="text-primary" />
-                </div>
               </div>
 
               {/* Content */}

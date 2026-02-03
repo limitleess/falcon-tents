@@ -3,7 +3,6 @@
 import { useEffect, useState, useRef } from "react";
 import { useTranslations } from "next-intl";
 import AppImage from "@/components/ui/AppImage";
-import Icon from "@/components/ui/AppIcon";
 
 const ApplicationsSection = () => {
   const [isHydrated, setIsHydrated] = useState(false);
@@ -102,9 +101,6 @@ const ApplicationsSection = () => {
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
 
                 <div className="absolute inset-0 bg-gradient-to-t from-secondary/80 to-transparent" />
-                <div className="absolute top-4 left-4 w-12 h-12 bg-primary/20 backdrop-blur-md rounded-xl flex items-center justify-center">
-                  <Icon name={app.icon as any} size={24} className="text-white" />
-                </div>
               </div>
 
               <div className="p-6">

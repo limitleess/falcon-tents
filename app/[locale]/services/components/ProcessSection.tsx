@@ -131,9 +131,6 @@ const ProcessSection = () => {
                   <div className="absolute top-3 left-3 w-12 h-12 bg-primary rounded-full flex items-center justify-center text-primary-foreground font-bold text-sm shadow-lg">
                     {step.number}
                   </div>
-                  <div className="absolute bottom-3 right-3 w-12 h-12 bg-white/95 backdrop-blur rounded-xl flex items-center justify-center shadow">
-                    <Icon name={step.icon as any} size={24} className="text-primary" />
-                  </div>
                 </div>
 
                 {/* Content */}

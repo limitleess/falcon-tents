@@ -55,9 +55,6 @@ const ServicesGrid = () => {
                   alt={tImages(service.id)}
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                 />
-                <div className="absolute top-3 right-3 w-12 h-12 rounded-xl bg-white/95 backdrop-blur flex items-center justify-center text-primary shadow-md">
-                  <Icon name={service.icon as "TruckIcon" | "Square3Stack3DIcon" | "HomeModernIcon"} size={24} />
-                </div>
               </div>
               <div className="p-6 flex flex-col items-center text-center">
                 <h3 className="text-xl font-heading font-semibold text-foreground mb-2 group-hover:text-accent-foreground transition-colors">
