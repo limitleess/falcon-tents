@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+  <!-- Professional tent/canopy mark -->
+  <path d="M20 6L6 34h6l2-10 4 10h6l2-10 4 10h6L20 6z" fill="currentColor" opacity="0.9"/>
+  <path d="M20 6v28M12 34h16" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

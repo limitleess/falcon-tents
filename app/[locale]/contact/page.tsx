@@ -9,7 +9,7 @@ import LocationsSection from "./components/LocationsSection";
 export const metadata: Metadata = {
   title: "Contact Us | Get Your Free Quote Today",
   description:
-    "Contact Falcon Tents for a free consultation and quote. Available in Riyadh, Jeddah, and Dammam. Call us or fill out our online form.",
+    "Contact Falcon Tents for a free consultation and quote. Jeddah: Baldiya Street, Aziziya. Dammam: Adamah Street. Phone +966 552 258 277. Email info@falcontents.com.",
   keywords:
     "contact falcon tents, get quote, shade installation inquiry, car shade consultation",
 };

@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import { Link, usePathname } from "@/i18n/navigation";
 import { useTranslations } from "next-intl";
 import Icon from "@/components/ui/AppIcon";
+import Logo from "@/components/ui/Logo";
 import LanguageSwitcher from "@/components/common/LanguageSwitcher";
 
 const Header = () => {
@@ -47,11 +48,9 @@ const Header = () => {
           {/* Logo */}
           <Link
             href="/homepage"
-            className="flex items-center gap-2 group"
+            className="flex items-center gap-2.5 group"
           >
-            <div className="w-10 h-10 bg-primary rounded-full flex items-center justify-center group-hover:scale-110 transition-transform">
-              <Icon name="HomeModernIcon" size={20} className="text-primary-foreground" variant="solid" />
-            </div>
+            <Logo size={40} className="text-primary shrink-0 group-hover:opacity-90 transition-opacity" />
             <span className="font-heading font-bold text-xl text-foreground tracking-tight">
               FALCON <span className="text-primary">TENTS</span>
             </span>

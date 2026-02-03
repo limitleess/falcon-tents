@@ -16,6 +16,7 @@ import {
   CameraIcon,
   BriefcaseIcon,
   ChatBubbleLeftRightIcon,
+  ChatBubbleBottomCenterTextIcon,
   PencilSquareIcon,
   Square3Stack3DIcon,
   PhotoIcon,
@@ -36,10 +37,13 @@ import {
   SparklesIcon,
   BoltIcon,
   PaintBrushIcon,
-  QuestionMarkCircleIcon,
+  XMarkIcon,
+  Bars3Icon,
+  StarIcon,
 } from '@heroicons/react/24/outline';
 import {
   HomeModernIcon as HomeModernIconSolid,
+  StarIcon as StarIconSolid,
 } from '@heroicons/react/24/solid';
 
 type IconVariant = 'outline' | 'solid';
@@ -79,10 +83,15 @@ const OUTLINE_ICONS: Record<string, React.ComponentType<{ width?: number; height
   SparklesIcon,
   BoltIcon,
   PaintBrushIcon,
+  ChatBubbleBottomCenterTextIcon,
+  XMarkIcon,
+  Bars3Icon,
+  StarIcon,
 };
 
 const SOLID_ICONS: Record<string, React.ComponentType<{ width?: number; height?: number; className?: string; onClick?: () => void }>> = {
   HomeModernIcon: HomeModernIconSolid,
+  StarIcon: StarIconSolid,
 };
 
 interface IconProps {
@@ -108,15 +117,7 @@ function Icon({
   const IconComponent = iconSet[name];
 
   if (!IconComponent || typeof IconComponent !== 'function') {
-    return (
-      <QuestionMarkCircleIcon
-        width={size}
-        height={size}
-        className={`text-gray-400 ${disabled ? 'opacity-50 cursor-not-allowed' : ''} ${className}`}
-        onClick={disabled ? undefined : onClick}
-        {...props}
-      />
-    );
+    return null;
   }
 
   return (

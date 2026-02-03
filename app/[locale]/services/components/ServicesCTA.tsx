@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState, useRef } from "react";
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
 import Icon from "@/components/ui/AppIcon";
 
 const ServicesCTA = () => {
@@ -50,7 +50,7 @@ const ServicesCTA = () => {
             </p>
             <div className="animate-fade-up delay-300">
               <Link
-                href="#quote"
+                href="/contact"
                 className="inline-flex items-center gap-2 px-8 py-4 bg-primary text-primary-foreground rounded-lg font-semibold text-base hover:bg-primary/90 transition-all shadow-xl hover:shadow-2xl"
               >
                 Request Free Quote

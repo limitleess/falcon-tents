@@ -39,8 +39,8 @@ const ContactInfo = () => {
       id: "location",
       icon: "MapPinIcon",
       title: "Location",
-      details: "Adamah Dammam",
-      description: "Serving all of Saudi Arabia",
+      details: "Jeddah & Dammam",
+      description: "Baldiya Street, Aziziya, Jeddah | Adamah Street, Dammam",
       action: "#locations"
     }
   ];

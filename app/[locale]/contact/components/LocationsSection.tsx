@@ -12,24 +12,19 @@ const LocationsSection = () => {
 
   const locations = [
     {
-      id: "riyadh",
-      city: "Riyadh",
-      address: "Al Olaya District, Riyadh",
-      phone: "+966 XX XXX XXXX",
-      icon: "BuildingOfficeIcon"
-    },
-    {
       id: "jeddah",
       city: "Jeddah",
-      address: "Al Hamra District, Jeddah",
-      phone: "+966 XX XXX XXXX",
+      address: "Baldiya Street, Aziziya, Jeddah",
+      phone: "+966 552 258 277",
+      email: "info@falcontents.com",
       icon: "BuildingOfficeIcon"
     },
     {
       id: "dammam",
       city: "Dammam",
       address: "Adamah Street, Dammam",
-      phone: "+966 XX XXX XXXX",
+      phone: "+966 552 258 277",
+      email: "info@falcontents.com",
       icon: "BuildingOfficeIcon"
     }
   ];
@@ -49,7 +44,7 @@ const LocationsSection = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           {locations.map((location, index) => (
             <div
               key={location.id}
@@ -70,8 +65,14 @@ const LocationsSection = () => {
                 </div>
                 <div className="flex items-center gap-3">
                   <Icon name="PhoneIcon" size={18} className="text-primary flex-shrink-0" />
-                  <a href={`tel:${location.phone}`} className="text-sm text-muted-foreground hover:text-primary transition-colors">
+                  <a href="tel:+966552258277" className="text-sm text-muted-foreground hover:text-primary transition-colors">
                     {location.phone}
+                  </a>
+                </div>
+                <div className="flex items-center gap-3">
+                  <Icon name="EnvelopeIcon" size={18} className="text-primary flex-shrink-0" />
+                  <a href="mailto:info@falcontents.com" className="text-sm text-muted-foreground hover:text-primary transition-colors">
+                    {location.email}
                   </a>
                 </div>
               </div>
