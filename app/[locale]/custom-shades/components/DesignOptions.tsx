@@ -1,11 +1,13 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { useTranslations } from "next-intl";
 import Icon from "@/components/ui/AppIcon";
 import AppImage from "@/components/ui/AppImage";
 
 const DesignOptions = () => {
   const [isHydrated, setIsHydrated] = useState(false);
+  const tImages = useTranslations("images.designOptions");
 
   useEffect(() => {
     setIsHydrated(true);
@@ -17,7 +19,6 @@ const DesignOptions = () => {
       icon: "Square3Stack3DIcon",
       title: "Shape Configurations",
       image: "https://images.unsplash.com/photo-1603654658287-ae5feb43b4b8",
-      imageAlt: "Geometric shade sail shapes and configurations",
       items: ["Sail shapes (triangle, square, hexagon)", "Conical structures", "Wave and curved designs", "Multi-peak combinations"]
     },
     {
@@ -25,7 +26,6 @@ const DesignOptions = () => {
       icon: "SwatchIcon",
       title: "Fabric & Colors",
       image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64",
-      imageAlt: "Fabric samples and color options for shade structures",
       items: ["PVC-coated polyester", "HDPE shade cloth", "PTFE architectural fabric", "20+ color options"]
     },
     {
@@ -33,7 +33,6 @@ const DesignOptions = () => {
       icon: "SparklesIcon",
       title: "Special Features",
       image: "https://images.unsplash.com/photo-1607008830059-1a5d2ae4cdcb",
-      imageAlt: "Custom shade with integrated features",
       items: ["Integrated lighting", "Retractable systems", "Waterproof membranes", "Logo printing"]
     },
     {
@@ -41,7 +40,6 @@ const DesignOptions = () => {
       icon: "CubeIcon",
       title: "Support Systems",
       image: "https://images.unsplash.com/photo-1609034257757-3276cf6a4e98",
-      imageAlt: "Steel and cable support systems for tensile structures",
       items: ["Steel pole structures", "Wall-mounted brackets", "Cable suspension", "Hybrid combinations"]
     }
   ];
@@ -72,7 +70,7 @@ const DesignOptions = () => {
               <div className="relative aspect-[4/3] overflow-hidden">
                 <AppImage
                   src={option.image}
-                  alt={option.imageAlt}
+                  alt={tImages(option.id)}
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                 />
                 <div className="absolute top-3 right-3 w-12 h-12 bg-white/95 backdrop-blur rounded-xl flex items-center justify-center shadow-md">

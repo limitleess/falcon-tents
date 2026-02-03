@@ -80,5 +80,57 @@
         "readMore": "Read More",
         "viewDetails": "View Details",
         "backToHome": "Back to Home"
+    },
+    "images": {
+        "servicesGrid": {
+            "carShades": "Car parking shade structure",
+            "customShades": "Custom outdoor shade and patio",
+            "tentInstallation": "Event tent installation"
+        },
+        "whyChoose": {
+            "quality": "Quality manufacturing",
+            "experience": "Expert team",
+            "warranty": "Warranty and certification",
+            "support": "Customer support"
+        },
+        "process": {
+            "consultation": "Consultation and site assessment meeting",
+            "design": "Design and planning for shade structure",
+            "fabrication": "Fabrication and manufacturing facility",
+            "installation": "Professional installation team at work"
+        },
+        "designOptions": {
+            "shapes": "Geometric shade sail shapes and configurations",
+            "materials": "Fabric samples and color options for shade structures",
+            "features": "Custom shade with integrated features",
+            "support": "Steel and cable support systems for tensile structures"
+        },
+        "footer": {
+            "carShades": "Car shades",
+            "customShades": "Custom shades",
+            "commercial": "Commercial shading",
+            "residential": "Residential shades",
+            "about": "About us",
+            "services": "Services",
+            "contact": "Contact",
+            "getQuote": "Get quote"
+        },
+        "servicesDetail": {
+            "parking": "Modern car parking shade structure with white fabric canopy covering multiple vehicles in outdoor parking lot",
+            "sun": "Elegant outdoor patio shade covering garden seating area with modern fabric canopy design",
+            "tents": "Large white event tent with peaked roof setup for outdoor wedding or corporate gathering",
+            "school": "Colorful shade structure covering school playground with children playing underneath safe canopy",
+            "polygon": "Contemporary polygon-shaped shade structure with geometric design and steel post supports in modern plaza",
+            "stadium": "Large stadium canopy covering seating sections with tensile fabric roof structure at sports venue",
+            "tensile": "Modern tensile fabric architecture with flowing curved white membrane structure creating dramatic architectural feature",
+            "awning": "Striped commercial awning shade covering storefront entrance with retractable fabric canopy",
+            "mosque": "Elegant white shade canopy covering mosque courtyard with traditional Islamic architectural design elements"
+        },
+        "applications": {
+            "residential": "Residential patio with custom shade sail covering outdoor dining area and garden",
+            "commercial": "Commercial restaurant outdoor seating with modern shade structure",
+            "public": "Public park with colorful shade sails covering playground equipment",
+            "architectural": "Modern architectural shade structure with unique tensile fabric design"
+        }
     }
 }

@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState, useRef } from "react";
+import { useTranslations } from "next-intl";
 import AppImage from "@/components/ui/AppImage";
 import Icon from "@/components/ui/AppIcon";
 
@@ -8,6 +9,7 @@ const ApplicationsSection = () => {
   const [isHydrated, setIsHydrated] = useState(false);
   const [visibleCards, setVisibleCards] = useState<Set<string>>(new Set());
   const sectionRef = useRef<HTMLDivElement>(null);
+  const tImages = useTranslations("images.applications");
 
   const applications = [
   {
@@ -15,7 +17,6 @@ const ApplicationsSection = () => {
     title: "Residential Spaces",
     description: "Patios, gardens, swimming pools, and outdoor living areas",
     image: "https://images.unsplash.com/photo-1662053400402-9c3ef07d0089",
-    alt: "Residential patio with custom shade sail covering outdoor dining area and garden",
     icon: "HomeIcon"
   },
   {
@@ -23,7 +24,6 @@ const ApplicationsSection = () => {
     title: "Commercial Projects",
     description: "Restaurants, hotels, shopping centers, and office complexes",
     image: "https://images.unsplash.com/photo-1669020260300-30ba614e10d0",
-    alt: "Commercial restaurant outdoor seating with modern shade structure",
     icon: "BuildingOfficeIcon"
   },
   {
@@ -31,7 +31,6 @@ const ApplicationsSection = () => {
     title: "Public Facilities",
     description: "Parks, playgrounds, sports facilities, and community spaces",
     image: "https://images.unsplash.com/photo-1695818487376-79da93af924e",
-    alt: "Public park with colorful shade sails covering playground equipment",
     icon: "UserGroupIcon"
   },
   {
@@ -39,7 +38,6 @@ const ApplicationsSection = () => {
     title: "Architectural Landmarks",
     description: "Iconic structures, entrances, and statement installations",
     image: "https://images.unsplash.com/photo-1565525526760-ecb4c11595c9",
-    alt: "Modern architectural shade structure with unique tensile fabric design",
     icon: "BuildingLibraryIcon"
   }];
 
@@ -100,7 +98,7 @@ const ApplicationsSection = () => {
               <div className="relative h-64 overflow-hidden">
                 <AppImage
                 src={app.image}
-                alt={app.alt}
+                alt={tImages(app.id)}
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
 
                 <div className="absolute inset-0 bg-gradient-to-t from-secondary/80 to-transparent" />
